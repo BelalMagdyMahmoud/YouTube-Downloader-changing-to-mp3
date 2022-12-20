@@ -40,7 +40,7 @@ for link in links:
 			                newname = newname1.replace('.mp4', '.mp3')
 			                output = os.rename(infilename, newname)
 
-			                print ("File ",j+1," :",filename," has been changed")
+			                print ("File",j+1,":",filename," has been changed")
 
 	else:
 		VideosPath= SAVE_PATH["Videos"]
